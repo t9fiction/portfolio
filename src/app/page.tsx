@@ -1,91 +1,50 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+"use client";
+import { Inter } from "@next/font/google";
+import Social from "@/components/Social";
+import { Profile } from "@/components/Profile";
+import Header from "@/components/Header";
+import {
+  Flex,
+  Icon,
+  VStack,
+  ColorModeScript,
+  Heading,
+  Spacer,
+} from "@chakra-ui/react";
+import { useColorMode } from "@chakra-ui/color-mode";
+import theme from "./theme";
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+// import styles from "./page.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+    <VStack padding={5}>
+      <Flex w="100%" pr="2" align={"right"}>
+        <Heading ml="8" size="md" fontWeight="semibold" colorScheme="teal">
+          {" "}
+          NumericSINS
+        </Heading>
+        <Spacer></Spacer>
+        <Icon as={FaInstagram} mr={2} onClick={toggleColorMode}></Icon>
+        <Icon as={FaGithub} mr={2} onClick={toggleColorMode}></Icon>
+        <Icon as={FaLinkedin} mr={2} onClick={toggleColorMode}></Icon>
+        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+        <Icon
+          aria-label="Toggle Mode"
+          onClick={toggleColorMode}
+          align-items="right"
+          ml={"4"}
         >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+        </Icon>
+      </Flex>
+      <Header />
+      <Social />
+      <Profile />
+    </VStack>
+  );
 }
