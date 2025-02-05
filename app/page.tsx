@@ -1,4 +1,5 @@
 'use client'
+import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
@@ -9,12 +10,12 @@ export default function Home() {
     <div className="max-w-7xl w-full">
       <FloatingNav navItems={navItems} />
       <Hero />
-      {/* <Grid />
-      <RecentProjects />
-      <Clients />
-      <Experience />
-      <Approach />
-      <Footer /> */}
+      <Grid />
+      {/* <RecentProjects /> */}
+      {/* <Clients /> */}
+      {/* <Experience /> */}
+      {/* <Approach /> */}
+      {/* <Footer /> */}
     </div>
   </main>
   );
