@@ -1,3 +1,4 @@
+'use client'
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import dynamic from "next/dynamic"; // Import dynamic from next/dynamic
@@ -49,7 +50,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const leftLists = ["Solidity", "Solana", "Typescript"];
   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
@@ -64,7 +65,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "sohail.sohailishaq@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
