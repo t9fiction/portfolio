@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
 
 2. **Install dependencies**:
    ```bash
-   npm install --legacy-peer-deps
+   npm install --legacy-peer-deps --legacy-peer-deps
    # or
    yarn install --ignore-engines
    # or
@@ -129,4 +129,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Enjoy exploring the code! If you have any questions or feedback, feel free to reach out. 
+Enjoy exploring the code! If you have any questions or feedback, feel free to reach out. 😊
