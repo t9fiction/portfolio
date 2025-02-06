@@ -43,11 +43,11 @@ To run this project locally, follow these steps:
 
 2. **Install dependencies**:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    # or
-   yarn install
+   yarn install --ignore-engines
    # or
-   pnpm install
+   pnpm install --strict-peer-dependencies=false
    ```
 
 3. **Run the development server**:
@@ -89,13 +89,13 @@ Alternatively, you can deploy it to other platforms like Netlify, GitHub Pages, 
 Here’s an overview of the project structure:
 
 ```
-your-portfolio/
+portfolio/
 ├── public/               # Static assets (images, fonts, etc.)
-├── components/       # Reusable components (e.g., Navbar, Footer)
-│   └── ui/
-├── data/             # Content data (e.g., projects, skills)
-├── pages/            # Next.js pages
-├── utils/            # Utility functions
+├── components/           # Reusable components (e.g., Navbar, Footer)
+│   └── ui/               # UI-specific components
+├── data/                 # Content data (e.g., projects, skills)
+├── pages/                # Next.js pages
+├── utils/                # Utility functions
 ├── tailwind.config.js    # Tailwind CSS configuration
 ├── tsconfig.json         # TypeScript configuration
 └── package.json          # Project dependencies and scripts
@@ -123,10 +123,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 👨‍💻 Author
 
 **Sohail Ishaque**  
-- GitHub: [@your-username](https://github.com/t9fiction)  
+- GitHub: [@t9fiction](https://github.com/t9fiction)  
 - LinkedIn: [Sohail Ishaque](https://www.linkedin.com/in/sohail-ishaque)  
 - Email: [sohail.sohailishaq@gmail.com](mailto:sohail.sohailishaq@gmail.com)
 
 ---
 
-Enjoy exploring the code! If you have any questions or feedback, feel free to reach out. 😊
+Enjoy exploring the code! If you have any questions or feedback, feel free to reach out. 
