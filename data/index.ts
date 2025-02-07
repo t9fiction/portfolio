@@ -74,6 +74,7 @@ export const navItems = [
     {
       id: 1,
       title: "Cannamint",
+      short:"Cannamint - Dapp",
       des: "CannaMint.app – The Fastest & Most Secure Token Creator on Base. \n CannaMint is the ultimate no-code solution for launching ERC-20 tokens on the Base blockchain. Built for speed, security, and simplicity, it empowers users to mint tokens instantly using audited Solidity contract libraries, eliminating technical barriers.Designed with Next.js and TailwindCSS, CannaMint offers an intuitive experience with Rebase-powered wallet connectivity. Beyond just token creation, it’s also the most affordable platform, with free upcoming features like liquidity pool setup, ensuring a seamless launch for any project.",
       img: "/cannamint.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -82,6 +83,7 @@ export const navItems = [
     {
       id: 2,
       title: "Yoom - Video Conferencing App",
+      short:"Cannamint - Dapp",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -90,6 +92,7 @@ export const navItems = [
     {
       id: 3,
       title: "AI Image SaaS - Canva Application",
+      short:"Cannamint - Dapp",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
@@ -98,6 +101,7 @@ export const navItems = [
     {
       id: 4,
       title: "Animated Apple Iphone 3D Website",
+      short:"Cannamint - Dapp",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
