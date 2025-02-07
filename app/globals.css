@@ -87,3 +87,16 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+/* Change all pagination bullets to white */
+.swiper-pagination-bullet {
+  background-color: white !important;
+  border: #fff solid .5px !important;
+  opacity: 0.2 !important; /* Adjust opacity for inactive bullets */
+}
+
+/* Change the active bullet to blue */
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+}
