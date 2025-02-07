@@ -6,7 +6,7 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 // import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -23,8 +23,9 @@ const RecentProjects = () => {
       <Swiper
         spaceBetween={30}
         loop={true}
-        autoplay={{ delay: 2000 }}
-        modules={[Navigation, Pagination]}
+        autoplay={{ delay: 4000 }}
+        modules={[Pagination, Autoplay]}
+        speed={2000}
         // navigation
         // mousewheel
         pagination={{ clickable: true }}
