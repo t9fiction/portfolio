@@ -9,7 +9,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Open communication is fostered to transform client visions into reality.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -19,9 +19,9 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Anticipating needs, crafting perfect solutions.",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2 text-[8px]",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
@@ -42,9 +42,9 @@ export const navItems = [
       title: "Tech enthusiast with a passion for development.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
+      imgClassName: "w-full h-full",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "",
       spareImg: "/b4.svg",
     },
   
