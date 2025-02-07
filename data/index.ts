@@ -76,9 +76,9 @@ export const navItems = [
       title: "Cannamint",
       short:"Cannamint - Dapp",
       des: "CannaMint.app – The Fastest & Most Secure Token Creator on Base. \n CannaMint is the ultimate no-code solution for launching ERC-20 tokens on the Base blockchain. Built for speed, security, and simplicity, it empowers users to mint tokens instantly using audited Solidity contract libraries, eliminating technical barriers.Designed with Next.js and TailwindCSS, CannaMint offers an intuitive experience with Rebase-powered wallet connectivity. Beyond just token creation, it’s also the most affordable platform, with free upcoming features like liquidity pool setup, ensuring a seamless launch for any project.",
-      img: "/cannamint.png",
+      img: "/canna.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://cannamint.app",
     },
     {
       id: 2,

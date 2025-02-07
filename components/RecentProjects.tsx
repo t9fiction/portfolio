@@ -10,6 +10,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 // import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -43,7 +44,7 @@ const RecentProjects = () => {
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl "
                     style={{ backgroundColor: "#13162D" }}
                   >
-                    <img src="/bg.png" alt="bgimg" />
+                    <Image src="/bg.png" alt="bgimg" layout="fill" objectFit="cover" />
                   </div>
                   <img
                     src={item.img}
@@ -84,7 +85,7 @@ const RecentProjects = () => {
 
                   <div className="flex justify-center items-center hover:underline cursor-pointer">
                     <p className="flex lg:text-xl md:text-xs text-sm  text-purple">
-                      <Link href={item.link || "/"}>Live Site</Link>
+                      <Link href={item.link || "/"} target="_blank" rel="noopener noreferrer">Live Site</Link>
                     </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </div>
