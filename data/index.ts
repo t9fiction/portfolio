@@ -50,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently workong on a Blockchain arbitrage project.",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,9 +73,9 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Cannamint",
+      des: "CannaMint.app – The Fastest & Most Secure Token Creator on Base. \n CannaMint is the ultimate no-code solution for launching ERC-20 tokens on the Base blockchain. Built for speed, security, and simplicity, it empowers users to mint tokens instantly using audited Solidity contract libraries, eliminating technical barriers.Designed with Next.js and TailwindCSS, CannaMint offers an intuitive experience with Rebase-powered wallet connectivity. Beyond just token creation, it’s also the most affordable platform, with free upcoming features like liquidity pool setup, ensuring a seamless launch for any project.",
+      img: "/cannamint.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "/ui.earth.com",
     },

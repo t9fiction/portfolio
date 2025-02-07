@@ -17,7 +17,7 @@ export default function Home() {
        <Starfield
               starCount={1000}
               starColor={[255, 255, 255]}
-              speedFactor={0.05}
+              speedFactor={0.01}
               backgroundColor="black"
             />
       <FloatingNav navItems={navItems} />
