@@ -193,9 +193,10 @@ export function Globe({ globeConfig, data }: WorldProps) {
       .pointAltitude(0.0)
       .pointRadius(2);
 
+    // tslint:disable-next-line: no-unused-expression
     globeRef.current
       .ringsData([])
-      .ringColor((e: any) => (t: any) => e.color(t))
+      .ringColor((e: any) => (t: any) => e.color(t)) // eslint-disable-line @typescript-eslint/no-explicit-any
       .ringMaxRadius(defaultProps.maxRings)
       .ringPropagationSpeed(RING_PROPAGATION_SPEED)
       .ringRepeatPeriod(
