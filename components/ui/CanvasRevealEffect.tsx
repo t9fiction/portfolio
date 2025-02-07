@@ -5,33 +5,6 @@ import React, { useMemo, useRef } from "react";
 import * as THREE from "three";
 
 
-// Define types for the material uniforms
-type UniformValue = number[] | number[][] | number;
-type UniformType = "uniform1f" | "uniform3f" | "uniform1fv" | "uniform3fv" | "uniform2f";
-
-interface Uniform {
-  value: UniformValue;
-  type: UniformType;
-}
-
-type Uniforms = {
-  [key: string]: {
-    value: number[] | number[][] | number;
-    type: string;
-  };
-};
-
-// Define types for Three.js specific elements
-interface CustomShaderMaterial extends THREE.ShaderMaterial {
-  uniforms: {
-    [key: string]: { value: any };
-  };
-}
-
-interface ShaderMeshRef extends THREE.Mesh {
-  material: CustomShaderMaterial;
-}
-
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
   opacities = [0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.8, 0.8, 0.8, 1],
@@ -203,7 +176,12 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   );
 };
 
-
+type Uniforms = {
+  [key: string]: {
+    value: number[] | number[][] | number;
+    type: string;
+  };
+};
 const ShaderMaterial = ({
   source,
   uniforms,
@@ -215,7 +193,7 @@ const ShaderMaterial = ({
   uniforms: Uniforms;
 }) => {
   const { size } = useThree();
-  const ref = useRef<ShaderMeshRef>(null);
+  const ref = useRef<THREE.Mesh>(null);
   let lastFrameTime = 0;
 
   useFrame(({ clock }) => {
