@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three";
 import ThreeGlobe from "three-globe";
-// @ts-expect-error
+// @ts-expect-error - Three.js/React-Three-Fiber type definitions have compatibility issues with the Globe component props
 import { useThree, Object3DNode, Canvas, extend } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import countries from "@/data/globe.json";
