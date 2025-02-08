@@ -92,10 +92,10 @@ const config = {
         },
         aurora: {
           from: {
-            backgroundPosition: "50% 50%, 50% 50%",
+            backgroundPosition: "60% 20%, 70% 60%",
           },
           to: {
-            backgroundPosition: "350% 50%, 350% 50%",
+            backgroundPosition: "350% 350%, 350% 250%",
           },
         },
         spotlight: {
