@@ -38,7 +38,7 @@ const RecentProjects = () => {
         {projects.map((item) => (
           <SwiperSlide key={item.id}>
             <div
-              className="lg:min-h-[32.5rem] h-[25rem] flex items-center pb-6 justify-center cursor-grab sm:w-96 w-[80vw]"
+              className="lg:min-h-[32.5rem] h-[25rem] flex items-center pb-10 justify-center cursor-grab sm:w-96 w-[80vw]"
               style={{
                 zIndex: 1,
               }}
