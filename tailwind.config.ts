@@ -90,6 +90,14 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
         spotlight: {
           "0%": {
             opacity: "0",
@@ -148,8 +156,8 @@ const config = {
         },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        "accordion-down": "accordion-down 0.4s ease-in",
+        "accordion-up": "accordion-up 0.5s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
@@ -159,6 +167,7 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        aurora: "aurora 120s linear infinite",
       },
     },
   },
