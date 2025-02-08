@@ -286,33 +286,48 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Blockchain Engineer",
+    desc: "Developed and deployed secure, scalable smart contracts on EVM-compatible chains, focusing on DeFi, stablecoins, and Web3 integrations.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Web3 & Smart Contract Developer",
+    desc: "Integrated blockchain solutions using Ethers.js, Viem, and Wagmi, enhancing dApps with seamless wallet connectivity and on-chain interactions.",
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Cloud & DevOps Engineer",
+    desc: "Designed and managed scalable cloud infrastructure using Docker, Kubernetes, AWS, and GCP, optimizing CI/CD pipelines for deployment automation.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Full-Stack Web Developer",
+    desc: "Built and optimized modern web applications using React, Next.js, and TailwindCSS, ensuring high performance and user-friendly experiences.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  {
+    id: 5,
+    title: "AI & Machine Learning Engineer",
+    desc: "Implemented AI-powered solutions using Python, FastAPI, and machine learning models to enhance automation and predictive analytics.",
+    className: "md:col-span-2",
+    thumbnail: "/exp5.svg",
+  },
+  {
+    id: 6,
+    title: "FastAPI & Backend Developer",
+    desc: "Developed high-performance APIs and microservices using FastAPI, improving efficiency and scalability for AI, blockchain, and cloud-based applications.",
+    className: "md:col-span-2",
+    thumbnail: "/exp6.svg",
+  },
 ];
+
 
 export const socialMedia = [
   {

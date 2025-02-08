@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/profile.svg" sizes="any" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-black-100`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
