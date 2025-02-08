@@ -54,7 +54,7 @@ const RecentProjects = () => {
                   />
                 </div>
 
-                <h1 className="font-bold lg:text-2xl py-4 md:text-xl text-base line-clamp-1">
+                <h1 className="font-bold lg:text-xl py-4 md:text-lg text-base line-clamp-1">
                   {item.short}
                 </h1>
 
