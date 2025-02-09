@@ -5,12 +5,12 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import { Navbar } from "@/components/Navbar";
 import RecentProjects from "@/components/RecentProjects";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-// import { FloatingNav } from "@/components/ui/FloatingNavbar";
-// import { navItems } from "@/data";
-import { navItems2 } from "@/components/navbar-icons/iconAbout";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { navItems } from "@/data";
+// import { Navbar } from "@/components/Navbar";
+// import { navItems2 } from "@/components/navbar-icons/iconAbout";
 import Starfield from "react-starfield";
 
 export default function Home() {
@@ -23,8 +23,8 @@ export default function Home() {
           speedFactor={0.01}
           backgroundColor="black"
         />
-        {/* <FloatingNav navItems={navItems} /> */}
-        <Navbar items={navItems2} desktopClassName={'text-white'} />
+        <FloatingNav navItems={navItems} />
+        {/* <Navbar items={navItems2} desktopClassName={'text-white'} /> */}
         <Hero />
         <Grid />
         <RecentProjects />
