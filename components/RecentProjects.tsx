@@ -37,13 +37,13 @@ const RecentProjects = () => {
       >
           {projects.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center pb-10 mx-auto justify-center cursor-grab sm:w-96 w-[80vw] ">
+              <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center pb-10 mx-auto justify-center cursor-grab sm:w-96 w-full">
                 <PinContainer
                   title={item.title}
                   href={item.link}
                   className="pb-2"
                 >
-                  <div className="relative flex items-center justify-center overflow-hidden h-[16vh] lg:h-[30vh]">
+                  <div className="relative flex items-center justify-center overflow-hidden h-[16vh] lg:h-[30vh] w-full">
                     <div
                       className="relative w-full h-full overflow-hidden lg:rounded-2xl "
                       // style={{ backgroundColor: "#13162D" }}
