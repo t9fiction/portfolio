@@ -278,9 +278,15 @@ export const companies = [
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/companies/dock.svg",
+    nameImg: "/companies/dockerName.svg",
   },
+  // {
+  //   id: 6,
+  //   name: "april",
+  //   img: "/companies/april.png",
+  //   nameImg: "/companies/AprilToken.svg",
+  // },
 ];
 
 export const workExperience = [

@@ -7,7 +7,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="testimonials" className="py-12">
       <h1 className="heading">
         Voices of
         <span className="text-purple"> Trust and Satisfaction</span>
@@ -30,7 +30,7 @@ const Clients = () => {
           />
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
+        {/* <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {companies.map((company) => (
             <React.Fragment key={company.id}>
               <div className="flex md:max-w-60 max-w-32 gap-2">
@@ -48,7 +48,7 @@ const Clients = () => {
               </div>
             </React.Fragment>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
