@@ -187,7 +187,7 @@ export const projects = [
       "/tailwindcss.svg",
       "/skills/ts.svg",
     ],
-    link: "https://crowdfunding-eight-zeta.vercel.app/",
+    link: "https://dex-nsins.vercel.app/",
   },
 ];
 

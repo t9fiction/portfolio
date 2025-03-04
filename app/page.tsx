@@ -3,7 +3,7 @@ import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
+// import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { AuroraBackground } from "@/components/ui/aurora-background";
@@ -26,7 +26,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         {/* <Navbar items={navItems2} desktopClassName={'text-white'} /> */}
         <Hero />
-        <Grid />
+        {/* <Grid /> */}
         <RecentProjects />
         <Clients />
         <Experience />
