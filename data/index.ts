@@ -79,7 +79,7 @@ export const projects = [
     des: "The Fastest & Most Secure Token Creator on Base. CannaMint is the ultimate no-code solution for launching ERC-20 tokens on the Base blockchain. Built for speed, security, and simplicity, it empowers users to mint tokens instantly using audited Solidity contract libraries, eliminating technical barriers.Designed with Next.js and TailwindCSS, CannaMint offers an intuitive experience with Rebase-powered wallet connectivity. Beyond just token creation, it’s also the most affordable platform, with free upcoming features like liquidity pool setup, ensuring a seamless launch for any project.",
     img: "/cannamint.png",
     iconLists: [
-      "/nextjs.png",
+      "/skills/nextjs.png",
       "/reown.png",
       "/skills/ts.svg",
       "/base.png",
@@ -95,7 +95,7 @@ export const projects = [
     des: "A decentralized platform enables seamless asset transfers between multiple blockchain networks, enhancing liquidity and accessibility for users. With a user-friendly interface and robust security measures, the bridge allows users to easily swap tokens across different ecosystems, empowering them to maximize their crypto investments. Experience the future of cross-chain interactions with this efficient.",
     img: "/wormhole.png",
     iconLists: [
-      "/nextjs.png",
+      "/skills/nextjs.png",
       "/skills/solidity.png",
       "/wormhole-logo.png",
       "/skills/ts.svg",
@@ -120,12 +120,12 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Reap",
-    short: "Reap | Blockchain Dapp",
-    des: "A secure and private encrypted storage platform for cryptocurrency wallet seed phrases. Developed to safeguard sensitive information, REAP provides users with an intuitive and robust solution for managing seed phrases, ensuring data protection and accessibility for crypto wallet recovery.",
-    img: "/reap.png",
-    iconLists: ["/re.svg", "/april.png", "/skills/thirdweb.png", "/skills/ts.svg"],
-    link: "https://reap-testapp.vercel.app/",
+    title: "NumericSol",
+    short: "NumicSol | Blockchain Dapp",
+    des: "Numeric Sol makes blockchain accessible by allowing anyone to create, list, and manage custom tokens on the Solana blockchain without deep technical knowledge.",
+    img: "/projects/numericsol.png",
+    iconLists: ["/skills/solana.png", "/skills/nextjs.png", "/skills/pinatacloud.png", "/skills/ts.svg"],
+    link: "https://numericsol.xyz/",
   },
   {
     id: 5,
@@ -133,7 +133,7 @@ export const projects = [
     short: "Flair | ECommerce Store",
     des: "An ecommerce app with payment system integrated.",
     img: "/flair.png",
-    iconLists: ["/nextjs.png", "/skills/ts.svg", "/redux.png", "/tailwindcss.svg"],
+    iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/redux.png", "/tailwindcss.svg"],
     link: "https://estore-five-xi.vercel.app/",
   },
   {
@@ -142,7 +142,7 @@ export const projects = [
     short: "Journal | Solana-dapp",
     des: "A complete CRUD decentralized application (DApp) using the Anchor framework on the Solana blockchain, paired with a Next.js frontend.",
     img: "/solana-journal.png",
-    iconLists: ["/nextjs.png", "/skills/ts.svg", "/solana.png", "/anchor.png"],
+    iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/skills/solana.png", "/anchor.png"],
     link: "https://solana-journal-crud-zeta.vercel.app/",
   },
   {
@@ -152,7 +152,7 @@ export const projects = [
     des: "A Telegram Bot Web App, designed for food ordering, built with React.js and integrated with Telegram. Allows users to browse available food items, add or remove them from a shopping cart, and proceed to checkout seamlessly within the Telegram interface.",
     img: "/burger-king.jpeg",
     iconLists: [
-      "/nextjs.png",
+      "/skills/nextjs.png",
       "/telegram.png",
       "/skills/ts.svg",
       "/fastapi.png",
@@ -188,6 +188,15 @@ export const projects = [
       "/skills/ts.svg",
     ],
     link: "https://dex-nsins.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Reap",
+    short: "Reap | Blockchain Dapp",
+    des: "A secure and private encrypted storage platform for cryptocurrency wallet seed phrases. Developed to safeguard sensitive information, REAP provides users with an intuitive and robust solution for managing seed phrases, ensuring data protection and accessibility for crypto wallet recovery.",
+    img: "/reap.png",
+    iconLists: ["/re.svg", "/april.png", "/skills/thirdweb.png", "/skills/ts.svg"],
+    link: "https://reap-testapp.vercel.app/",
   },
 ];
 
