@@ -121,7 +121,7 @@ export const projects = [
   {
     id: 4,
     title: "NumericSol",
-    short: "NumicSol | Blockchain Dapp",
+    short: "NumericSol | Solana Dapp",
     des: "Numeric Sol makes blockchain accessible by allowing anyone to create, list, and manage custom tokens on the Solana blockchain without deep technical knowledge.",
     img: "/projects/numericsol.png",
     iconLists: ["/skills/solana.png", "/skills/nextjs.png", "/skills/pinatacloud.png", "/skills/ts.svg"],
