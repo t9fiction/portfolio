@@ -18,6 +18,27 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
+          <p className="text-gray-300 text-center max-w-2xl mb-8">
+            Explore my latest work in blockchain, smart contracts, and Web3 development. Each project showcases different skills and technologies.
+          </p>
+          
+          {/* Category filters */}
+          <div className="flex flex-wrap gap-2 justify-center mb-8">
+            {categories.map((category) => (
+              <button
+                key={category}
+                onClick={() => setActiveCategory(category)}
+                className={`px-4 py-2 rounded-full text-sm transition-all ${
+                  activeCategory === category
+                    ? "bg-purple-500 text-white"
+                    : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                }`}
+              >
+                {category.charAt(0).toUpperCase() + category.slice(1)}
+              </button>
+            ))}
+          </div>
+        </div>
 
       <Swiper
         spaceBetween={30}
