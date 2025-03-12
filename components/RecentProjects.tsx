@@ -47,7 +47,7 @@ const RecentProjects = () => {
                 onClick={() => setActiveCategory(category)}
                 className={`px-4 py-2 rounded-full text-sm transition-all cursor-pointer ${
                   activeCategory === category
-                    ? "bg-purple-500 text-white"
+                    ? "bg-primary text-black-200"
                     : "bg-gray-800 text-gray-300 hover:bg-gray-700"
                 }`}
               >
