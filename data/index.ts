@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "Cannamint",
     short: "Cannamint | Blockchain Dapp",
-    des: "The Fastest & Most Secure Token Creator on Base. CannaMint is the ultimate no-code solution for launching ERC-20 tokens on the Base blockchain. Built for speed, security, and simplicity, it empowers users to mint tokens instantly using audited Solidity contract libraries, eliminating technical barriers.Designed with Next.js and TailwindCSS, CannaMint offers an intuitive experience with Rebase-powered wallet connectivity. Beyond just token creation, it’s also the most affordable platform, with free upcoming features like liquidity pool setup, ensuring a seamless launch for any project.",
+    des: "The Fastest & Most Secure Token Creator on Base. CannaMint is the ultimate no-code solution for launching ERC-20 tokens on the Base blockchain. Built for speed, security, and simplicity, it empowers users to mint tokens instantly using audited Solidity contract libraries, eliminating technical barriers.",
     img: "/cannamint.png",
     iconLists: [
       "/skills/nextjs.png",
@@ -87,12 +87,15 @@ export const projects = [
       "/tailwindcss.svg",
     ],
     link: "https://cannamint.app",
+    github: "https://github.com/yourusername/cannamint",
+    category: "web3",
+    tags: ["Token Creator", "Base Network"]
   },
   {
     id: 2,
     title: "Wormhole",
     short: "Wormhole | Blockchain Bridge",
-    des: "A decentralized platform enables seamless asset transfers between multiple blockchain networks, enhancing liquidity and accessibility for users. With a user-friendly interface and robust security measures, the bridge allows users to easily swap tokens across different ecosystems, empowering them to maximize their crypto investments. Experience the future of cross-chain interactions with this efficient.",
+    des: "A decentralized platform enables seamless asset transfers between multiple blockchain networks, enhancing liquidity and accessibility for users. With a user-friendly interface and robust security measures, the bridge allows users to easily swap tokens across different ecosystems.",
     img: "/wormhole.png",
     iconLists: [
       "/skills/nextjs.png",
@@ -102,12 +105,15 @@ export const projects = [
       "/tailwindcss.svg",
     ],
     link: "https://wormhole-test.vercel.app/",
+    github: "https://github.com/yourusername/wormhole",
+    category: "web3",
+    tags: ["Bridge", "Multi-chain"]
   },
   {
     id: 3,
     title: "Guessing Game",
     short: "Guessing Game | Multi Blockchain Dapp",
-    des: "The Blockchain Guessing Game is a multi-chain dApp deployed on Sepolia and Arbitrum Sepolia, where players guess a number to win ERC20 token rewards. Built with Solidity, Hardhat, Foundry, Next.js, and TypeScript, it features on-chain randomness, multichain Web3 integration, and instant token payouts, showcasing the potential of blockchain gaming..",
+    des: "The Blockchain Guessing Game is a multi-chain dApp deployed on Sepolia and Arbitrum Sepolia, where players guess a number to win ERC20 token rewards. Built with Solidity, Hardhat, Foundry, Next.js, and TypeScript.",
     img: "/guessinggame.png",
     iconLists: [
       "/re.svg",
@@ -117,6 +123,9 @@ export const projects = [
       "/tailwindcss.svg",
     ],
     link: "https://blockchain-game-kohl.vercel.app/",
+    github: "https://github.com/yourusername/guessing-game",
+    category: "gamefi",
+    tags: ["Game", "Multi-chain"]
   },
   {
     id: 4,
@@ -126,15 +135,21 @@ export const projects = [
     img: "/projects/numericsol.png",
     iconLists: ["/skills/solana.png", "/skills/nextjs.png", "/skills/pinatacloud.png", "/skills/ts.svg"],
     link: "https://numericsol.xyz/",
+    github: "https://github.com/yourusername/numericsol",
+    category: "web3",
+    tags: ["Solana", "Token Creator"]
   },
   {
     id: 5,
     title: "Flair",
     short: "Flair | ECommerce Store",
-    des: "An ecommerce app with payment system integrated.",
+    des: "An ecommerce app with payment system integrated, built with Next.js, TypeScript, Redux for state management, and styled with TailwindCSS for a responsive user experience.",
     img: "/flair.png",
     iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/redux.png", "/tailwindcss.svg"],
     link: "https://estore-five-xi.vercel.app/",
+    github: "https://github.com/yourusername/flair",
+    category: "web",
+    tags: ["E-commerce", "Next.js"]
   },
   {
     id: 6,
@@ -144,6 +159,9 @@ export const projects = [
     img: "/solana-journal.png",
     iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/skills/solana.png", "/anchor.png"],
     link: "https://solana-journal-crud-zeta.vercel.app/",
+    github: "https://github.com/yourusername/solana-journal",
+    category: "web3",
+    tags: ["Solana", "Anchor"]
   },
   {
     id: 7,
@@ -159,12 +177,15 @@ export const projects = [
       "/python.png",
     ],
     link: "https://t.me/burger22zone_bot/burger",
+    github: "https://github.com/yourusername/burger-king-bot",
+    category: "bot",
+    tags: ["Telegram", "Food Ordering"]
   },
   {
     id: 8,
     title: "Crowdfunding",
     short: "Crowdfunding | Blockchain Dapp",
-    des: "A secure and private encrypted storage platform for cryptocurrency wallet seed phrases. Developed to safeguard sensitive information, REAP provides users with an intuitive and robust solution for managing seed phrases, ensuring data protection and accessibility for crypto wallet recovery.",
+    des: "A blockchain-based crowdfunding platform allowing users to create, contribute to, and track fundraising campaigns with full transparency and security provided by smart contracts.",
     img: "/crowdfunding.png",
     iconLists: [
       "/re.svg",
@@ -174,6 +195,9 @@ export const projects = [
       "/reown.png",
     ],
     link: "https://crowdfunding-eight-zeta.vercel.app/",
+    github: "https://github.com/yourusername/crowdfunding",
+    category: "web3",
+    tags: ["Fundraising", "Smart Contracts"]
   },
   {
     id: 9,
@@ -188,6 +212,9 @@ export const projects = [
       "/skills/ts.svg",
     ],
     link: "https://dex-nsins.vercel.app/",
+    github: "https://github.com/yourusername/simple-dex",
+    category: "defi",
+    tags: ["DEX", "Token Swap"]
   },
   {
     id: 10,
@@ -197,6 +224,9 @@ export const projects = [
     img: "/reap.png",
     iconLists: ["/re.svg", "/april.png", "/skills/thirdweb.png", "/skills/ts.svg"],
     link: "https://reap-testapp.vercel.app/",
+    github: "https://github.com/yourusername/reap",
+    category: "security",
+    tags: ["Encryption", "Wallet Security"]
   },
 ];
 
