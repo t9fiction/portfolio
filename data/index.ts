@@ -172,7 +172,7 @@ export const projects = [
       "/fastapi.png",
     ],
     link: "https://t.me/burger22zone_bot/burger",
-    github: "https://github.com/yourusername/burger-king-bot",
+    github: "https://github.com/t9fiction/Burger-King---Bot",
     category: "bot",
     tags: ["Telegram", "Food Ordering"]
   },
@@ -189,7 +189,7 @@ export const projects = [
       "/skills/reown.png",
     ],
     link: "https://crowdfunding-eight-zeta.vercel.app/",
-    github: "https://github.com/yourusername/crowdfunding",
+    github: "https://github.com/t9fiction/crowdfudning-dapp",
     category: "web3",
     tags: ["Fundraising", "Smart Contracts"]
   },
@@ -218,7 +218,7 @@ export const projects = [
     img: "/projects/reap.png",
     iconLists: ["/skills/re.svg", "/skills/april.png", "/skills/thirdweb.png", "/skills/ts.svg"],
     link: "https://reap-testapp.vercel.app/",
-    github: "https://github.com/yourusername/reap",
+    github: "https://github.com/t9fiction/ReapSite",
     category: "security",
     tags: ["Encryption", "Wallet Security"]
   },
