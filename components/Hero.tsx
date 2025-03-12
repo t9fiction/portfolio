@@ -3,6 +3,7 @@ import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -42,9 +43,18 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Blockchain | Smart Contracts | Web3
-          </p>
+        <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            className="flex items-center gap-2 mb-4"
+          >
+            <div className="h-px w-10 bg-blue-500"></div>
+            <p className="uppercase tracking-widest text-xs text-center text-blue-400 font-semibold">
+              Blockchain | Smart Contracts | Web3
+            </p>
+            <div className="h-px w-10 bg-blue-500"></div>
+          </motion.div>
 
           <TextGenerateEffect
             words="Crafting the Web3 Evolution, One Block at a Time"
