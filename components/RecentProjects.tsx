@@ -25,7 +25,7 @@ const RecentProjects = () => {
     } else {
       setFilteredProjects(projects.filter(project => project.category === activeCategory));
     }
-  }, [activeCategory]);
+  }, [activeCategory]); 
 
   return (
     <div className="py-16" id="projects">
@@ -40,12 +40,12 @@ const RecentProjects = () => {
           </p>
           
           {/* Category filters */}
-          <div className="flex flex-wrap gap-2 justify-center mb-8">
+          <div className="flex flex-wrap gap-2 justify-center mb-8 z-10">
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-4 py-2 rounded-full text-sm transition-all ${
+                className={`px-4 py-2 rounded-full text-sm transition-all cursor-pointer ${
                   activeCategory === category
                     ? "bg-purple-500 text-white"
                     : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -71,7 +71,7 @@ const RecentProjects = () => {
             320: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
-            1536: { slidesPerView: 3 },
+            1536: { slidesPerView: 4 },
           }}
           className="pb-16"
         >
