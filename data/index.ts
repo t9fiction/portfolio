@@ -86,7 +86,7 @@ export const projects = [
     ],
     link: "https://cannamint.app",
     github: "https://github.com/yourusername/cannamint",
-    category: "web3",
+    category: "Dapp",
     tags: ["Token Creator", "Base Network"]
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
     ],
     link: "https://wormhole-test.vercel.app/",
     github: "https://github.com/yourusername/wormhole",
-    category: "web3",
+    category: "Dapp",
     tags: ["Bridge", "Multi-chain"]
   },
   {
@@ -120,7 +120,7 @@ export const projects = [
     ],
     link: "https://blockchain-game-kohl.vercel.app/",
     github: "https://github.com/yourusername/guessing-game",
-    category: "gamefi",
+    category: "Dapp",
     tags: ["Game", "Multi-chain"]
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     iconLists: ["/skills/solana.png", "/skills/nextjs.png", "/skills/pinatacloud.png", "/skills/ts.svg"],
     link: "https://numericsol.xyz/",
     github: "https://github.com/yourusername/numericsol",
-    category: "web3",
+    category: "SolanaDapp",
     tags: ["Solana", "Token Creator"]
   },
   {
@@ -144,7 +144,7 @@ export const projects = [
     iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/redux.png", "/skills/tailwindcss.svg"],
     link: "https://estore-five-xi.vercel.app/",
     github: "https://github.com/yourusername/flair",
-    category: "web",
+    category: "Ecommerce",
     tags: ["E-commerce", "Next.js"]
   },
   {
@@ -156,7 +156,7 @@ export const projects = [
     iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/skills/solana.png", "/anchor.png"],
     link: "https://solana-journal-crud-zeta.vercel.app/",
     github: "https://github.com/yourusername/solana-journal",
-    category: "web3",
+    category: "Solana",
     tags: ["Solana", "Anchor"]
   },
   {
@@ -207,7 +207,7 @@ export const projects = [
     ],
     link: "https://dex-nsins.vercel.app/",
     github: "https://github.com/yourusername/simple-dex",
-    category: "defi",
+    category: "Dapp",
     tags: ["DEX", "Token Swap"]
   },
   {
@@ -219,7 +219,7 @@ export const projects = [
     iconLists: ["/skills/re.svg", "/skills/april.png", "/skills/thirdweb.png", "/skills/ts.svg"],
     link: "https://reap-testapp.vercel.app/",
     github: "https://github.com/t9fiction/ReapSite",
-    category: "security",
+    category: "web3",
     tags: ["Encryption", "Wallet Security"]
   },
 ];
