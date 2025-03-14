@@ -132,7 +132,7 @@ export const projects = [
     iconLists: ["/skills/solana.png", "/skills/nextjs.png", "/skills/pinatacloud.png", "/skills/ts.svg"],
     link: "https://numericsol.xyz/",
     github: "https://github.com/yourusername/numericsol",
-    category: "SolanaDapp",
+    category: "Solana",
     tags: ["Solana", "Token Creator"]
   },
   {
