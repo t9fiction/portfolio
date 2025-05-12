@@ -85,7 +85,7 @@ export const projects = [
       "/skills/solidity.png",
     ],
     link: "https://cannamint.app",
-    github: "https://github.com/yourusername/cannamint",
+    github: "https://github.com/t9fiction/cannamint-base",
     category: "Dapp",
     tags: ["Token Creator", "Base Network"],
   },
