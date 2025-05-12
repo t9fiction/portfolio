@@ -87,10 +87,27 @@ export const projects = [
     link: "https://cannamint.app",
     github: "https://github.com/yourusername/cannamint",
     category: "Dapp",
-    tags: ["Token Creator", "Base Network"]
+    tags: ["Token Creator", "Base Network"],
   },
   {
     id: 2,
+    title: "Distributed Stablecoin",
+    short: "StableCoin | Blockchain Dapp",
+    des: "A decentralized, overcollateralized, algorithmic stablecoin protocol pegged to the US Dollar. Built using Foundry and Solidity, this project supports multi-collateral (wETH & wBTC), uses Chainlink oracles for price feeds, and includes robust liquidation mechanics.",
+    img: "/projects/stablecoin.jpg",
+    iconLists: [
+      "/skills/solidity.png",
+      "/skills/foundry.png",
+      "/skills/chainlink.jpg",
+      "/skills/openzeppelin.png",
+    ],
+    link: "https://github.com/t9fiction/cyfrin-defi-stablecoin",
+    github: "https://github.com/t9fiction/cyfrin-defi-stablecoin",
+    category: "Dapp",
+    tags: ["ERC20", "Stablecoin"],
+  },
+  {
+    id: 3,
     title: "Wormhole",
     short: "Wormhole | Blockchain Bridge",
     des: "A decentralized platform enables seamless asset transfers between multiple blockchain networks, enhancing liquidity and accessibility for users. With a user-friendly interface and robust security measures, the bridge allows users to easily swap tokens across different ecosystems.",
@@ -104,24 +121,7 @@ export const projects = [
     link: "https://wormhole-test.vercel.app/",
     github: "https://github.com/yourusername/wormhole",
     category: "Dapp",
-    tags: ["Bridge", "Multi-chain"]
-  },
-  {
-    id: 3,
-    title: "Guessing Game",
-    short: "Guessing Game | Multi Blockchain Dapp",
-    des: "The Blockchain Guessing Game is a multi-chain dApp deployed on Sepolia and Arbitrum Sepolia, where players guess a number to win ERC20 token rewards. Built with Solidity, Hardhat, Foundry, Next.js, and TypeScript.",
-    img: "/guessinggame.png",
-    iconLists: [
-      "/skills/re.svg",
-      "/skills/eth.svg",
-      "/skills/ts.svg",
-      "/erc20.png",
-    ],
-    link: "https://blockchain-game-kohl.vercel.app/",
-    github: "https://github.com/yourusername/guessing-game",
-    category: "Dapp",
-    tags: ["Game", "Multi-chain"]
+    tags: ["Bridge", "Multi-chain"],
   },
   {
     id: 4,
@@ -129,11 +129,16 @@ export const projects = [
     short: "NumericSol | Solana Dapp",
     des: "Numeric Sol makes blockchain accessible by allowing anyone to create, list, and manage custom tokens on the Solana blockchain without deep technical knowledge.",
     img: "/projects/numericsol.png",
-    iconLists: ["/skills/solana.png", "/skills/nextjs.png", "/skills/pinatacloud.png", "/skills/ts.svg"],
+    iconLists: [
+      "/skills/solana.png",
+      "/skills/nextjs.png",
+      "/skills/pinatacloud.png",
+      "/skills/ts.svg",
+    ],
     link: "https://numericsol.xyz/",
     github: "https://github.com/yourusername/numericsol",
     category: "Solana",
-    tags: ["Solana", "Token Creator"]
+    tags: ["Solana", "Token Creator"],
   },
   {
     id: 5,
@@ -141,11 +146,16 @@ export const projects = [
     short: "Flair | ECommerce Store",
     des: "An ecommerce app with payment system integrated, built with Next.js, TypeScript, Redux for state management, and styled with TailwindCSS for a responsive user experience.",
     img: "/flair.png",
-    iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/redux.png", "/skills/tailwindcss.svg"],
+    iconLists: [
+      "/skills/nextjs.png",
+      "/skills/ts.svg",
+      "/redux.png",
+      "/skills/tailwindcss.svg",
+    ],
     link: "https://estore-five-xi.vercel.app/",
     github: "https://github.com/yourusername/flair",
     category: "Ecommerce",
-    tags: ["E-commerce", "Next.js"]
+    tags: ["E-commerce", "Next.js"],
   },
   {
     id: 6,
@@ -153,11 +163,16 @@ export const projects = [
     short: "Journal | Solana-dapp",
     des: "A complete CRUD decentralized application (DApp) using the Anchor framework on the Solana blockchain, paired with a Next.js frontend.",
     img: "/solana-journal.png",
-    iconLists: ["/skills/nextjs.png", "/skills/ts.svg", "/skills/solana.png", "/anchor.png"],
+    iconLists: [
+      "/skills/nextjs.png",
+      "/skills/ts.svg",
+      "/skills/solana.png",
+      "/anchor.png",
+    ],
     link: "https://solana-journal-crud-zeta.vercel.app/",
     github: "https://github.com/yourusername/solana-journal",
     category: "Solana",
-    tags: ["Solana", "Anchor"]
+    tags: ["Solana", "Anchor"],
   },
   {
     id: 7,
@@ -174,7 +189,7 @@ export const projects = [
     link: "https://t.me/burger22zone_bot/burger",
     github: "https://github.com/t9fiction/Burger-King---Bot",
     category: "bot",
-    tags: ["Telegram", "Food Ordering"]
+    tags: ["Telegram", "Food Ordering"],
   },
   {
     id: 8,
@@ -191,7 +206,7 @@ export const projects = [
     link: "https://crowdfunding-eight-zeta.vercel.app/",
     github: "https://github.com/t9fiction/crowdfudning-dapp",
     category: "web3",
-    tags: ["Fundraising", "Smart Contracts"]
+    tags: ["Fundraising", "Smart Contracts"],
   },
   {
     id: 9,
@@ -208,7 +223,7 @@ export const projects = [
     link: "https://dex-nsins.vercel.app/",
     github: "https://github.com/yourusername/simple-dex",
     category: "Dapp",
-    tags: ["DEX", "Token Swap"]
+    tags: ["DEX", "Token Swap"],
   },
   {
     id: 10,
@@ -216,11 +231,33 @@ export const projects = [
     short: "Reap | Blockchain Dapp",
     des: "A secure and private encrypted storage platform for cryptocurrency wallet seed phrases. Developed to safeguard sensitive information, REAP provides users with an intuitive and robust solution for managing seed phrases, ensuring data protection and accessibility for crypto wallet recovery.",
     img: "/projects/reap.png",
-    iconLists: ["/skills/re.svg", "/skills/april.png", "/skills/thirdweb.png", "/skills/ts.svg"],
+    iconLists: [
+      "/skills/re.svg",
+      "/skills/april.png",
+      "/skills/thirdweb.png",
+      "/skills/ts.svg",
+    ],
     link: "https://reap-testapp.vercel.app/",
     github: "https://github.com/t9fiction/ReapSite",
     category: "web3",
-    tags: ["Encryption", "Wallet Security"]
+    tags: ["Encryption", "Wallet Security"],
+  },
+  {
+    id: 11,
+    title: "Guessing Game",
+    short: "Guessing Game | Multi Blockchain Dapp",
+    des: "The Blockchain Guessing Game is a multi-chain dApp deployed on Sepolia and Arbitrum Sepolia, where players guess a number to win ERC20 token rewards. Built with Solidity, Hardhat, Foundry, Next.js, and TypeScript.",
+    img: "/guessinggame.png",
+    iconLists: [
+      "/skills/re.svg",
+      "/skills/eth.svg",
+      "/skills/ts.svg",
+      "/erc20.png",
+    ],
+    link: "https://blockchain-game-kohl.vercel.app/",
+    github: "https://github.com/yourusername/guessing-game",
+    category: "Dapp",
+    tags: ["Game", "Multi-chain"],
   },
 ];
 
@@ -348,7 +385,7 @@ export const workExperience = [
     id: 2,
     title: "Web3 & Smart Contract Integration",
     desc: "Integrated blockchain solutions using Ethers.js, Viem, and Wagmi, enhancing dApps with seamless wallet connectivity and on-chain interactions.",
-    className: "md:col-span-2", 
+    className: "md:col-span-2",
     thumbnail: "/exp2.png",
   },
   {
@@ -380,7 +417,6 @@ export const workExperience = [
     thumbnail: "/exp6.png",
   },
 ];
-
 
 export const socialMedia = [
   {
