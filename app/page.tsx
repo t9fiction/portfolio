@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 // import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
-import { AuroraBackground } from "@/components/ui/aurora-background";
+// import { AuroraBackground } from "@/components/ui/aurora-background";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 // import { Navbar } from "@/components/Navbar";
@@ -32,7 +32,7 @@ export default function Home() {
         <Experience />
         <Approach />
         <Footer />
-        <AuroraBackground />
+        {/* <AuroraBackground /> */}
       </div>
     </main>
   );
