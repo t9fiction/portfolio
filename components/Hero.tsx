@@ -43,7 +43,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-        <motion.div
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
@@ -57,13 +57,13 @@ const Hero = () => {
           </motion.div>
 
           <TextGenerateEffect
-            words="Crafting the Web3 Evolution, One Block at a Time"
+            words="Smart Contracts to Cloud Containers — Full-Spectrum Engineer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-white"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white font-thin">
-            Blockchain Engineer, Web3 Explorer, Future-Driven Technologist Hi,
-            I&apos;m Sohail!
+            DevOps Engineer, Blockchain Developer, AI Explorer, Future-Driven
+            Technologist Hi, I&apos;m Sohail!
           </p>
 
           <a href="#projects">
