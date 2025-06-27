@@ -51,7 +51,7 @@ const Hero = () => {
           >
             <div className="h-px w-10 bg-blue-500"></div>
             <p className="uppercase tracking-widest text-xs text-center text-blue-400 font-semibold">
-              Blockchain | Smart Contracts | Web3
+              Blockchain | DevOps | Generative-AI
             </p>
             <div className="h-px w-10 bg-blue-500"></div>
           </motion.div>
