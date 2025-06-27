@@ -57,13 +57,12 @@ const Hero = () => {
           </motion.div>
 
           <TextGenerateEffect
-            words="Blockchain-Driven, DevOps-Powered, Future-Focused"
+            words="DevOps in the Cloud, Logic on the Chain"
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-white"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white font-thin">
-            DevOps Engineer, Blockchain Developer, AI Explorer, Future-Driven
-            Technologist Hi, I&apos;m Sohail!
+            DevOps Engineer, Blockchain Developer, AI Explorer, Hi, I&apos;m Sohail!
           </p>
 
           <a href="#projects">
