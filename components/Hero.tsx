@@ -57,7 +57,7 @@ const Hero = () => {
           </motion.div>
 
           <TextGenerateEffect
-            words="DevOps in the Cloud, Logic on the Chain"
+            words="Building on the Chain, Scaling in the Cloud"
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-white"
           />
 
