@@ -62,7 +62,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white font-thin">
-            DevOps Engineer, Blockchain Developer, AI Explorer, Hi, I&apos;m Sohail!
+            Cloud Engineer, Blockchain Developer, AI Explorer, Hi, I&apos;m Sohail!
           </p>
 
           <a href="#projects">
