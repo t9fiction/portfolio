@@ -125,6 +125,23 @@ export const projects = [
   },
   {
     id: 4,
+    title: "ChainCraft",
+    short: "ChainCraft | Token Manager",
+    des: "A secure DeFi platform on Core DAO for verified token creation, Sushiswap trading, token locking, and community governance, ensuring trust and transparency.",
+    img: "/projects/ChainCraft.png",
+    iconLists: [
+      "/skills/solidity.png",
+      "/skills/nextjs.png",
+      "/skills/wagmi.png",
+      "/skills/ts.svg",
+    ],
+    link: "https://memegator.vercel.app/",
+    github: "https://github.com/t9fiction/core-hackathon",
+    category: "Solidity",
+    tags: ["Solidity", "Token Creator"],
+  },
+  {
+    id: 5,
     title: "NumericSol",
     short: "NumericSol | Solana Dapp",
     des: "Numeric Sol makes blockchain accessible by allowing anyone to create, list, and manage custom tokens on the Solana blockchain without deep technical knowledge.",
@@ -141,7 +158,7 @@ export const projects = [
     tags: ["Solana", "Token Creator"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Flair",
     short: "Flair | ECommerce Store",
     des: "An ecommerce app with payment system integrated, built with Next.js, TypeScript, Redux for state management, and styled with TailwindCSS for a responsive user experience.",
@@ -158,7 +175,7 @@ export const projects = [
     tags: ["E-commerce", "Next.js"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Journal",
     short: "Journal | Solana-dapp",
     des: "A complete CRUD decentralized application (DApp) using the Anchor framework on the Solana blockchain, paired with a Next.js frontend.",
@@ -175,7 +192,7 @@ export const projects = [
     tags: ["Solana", "Anchor"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Telegram Bot",
     short: "Telegram App | Burger King",
     des: "A Telegram Bot Web App, designed for food ordering, built with React.js and integrated with Telegram. Allows users to browse available food items, add or remove them from a shopping cart, and proceed to checkout seamlessly within the Telegram interface.",
@@ -192,7 +209,7 @@ export const projects = [
     tags: ["Telegram", "Food Ordering"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Crowdfunding",
     short: "Crowdfunding | Blockchain Dapp",
     des: "A blockchain-based crowdfunding platform allowing users to create, contribute to, and track fundraising campaigns with full transparency and security provided by smart contracts.",
@@ -209,7 +226,7 @@ export const projects = [
     tags: ["Fundraising", "Smart Contracts"],
   },
   {
-    id: 9,
+    id: 10,
     title: "DEX",
     short: "Simple DEX | Decentralized Exchange",
     des: "A Decentralized Exchange (DEX) for LMNG Token on the Ethereum Sepolia Testnet, allowing users to swap ETH for LMNG tokens and vice versa.",
@@ -226,7 +243,7 @@ export const projects = [
     tags: ["DEX", "Token Swap"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Reap",
     short: "Reap | Blockchain Dapp",
     des: "A secure and private encrypted storage platform for cryptocurrency wallet seed phrases. Developed to safeguard sensitive information, REAP provides users with an intuitive and robust solution for managing seed phrases, ensuring data protection and accessibility for crypto wallet recovery.",
@@ -243,7 +260,7 @@ export const projects = [
     tags: ["Encryption", "Wallet Security"],
   },
   {
-    id: 11,
+    id: 12,
     title: "Guessing Game",
     short: "Guessing Game | Multi Blockchain Dapp",
     des: "The Blockchain Guessing Game is a multi-chain dApp deployed on Sepolia and Arbitrum Sepolia, where players guess a number to win ERC20 token rewards. Built with Solidity, Hardhat, Foundry, Next.js, and TypeScript.",
@@ -260,7 +277,7 @@ export const projects = [
     tags: ["Game", "Multi-chain"],
   },
   {
-    id: 12,
+    id: 13,
     title: "Wormhole",
     short: "Wormhole | Blockchain Bridge",
     des: "A decentralized platform enables seamless asset transfers between multiple blockchain networks, enhancing liquidity and accessibility for users. With a user-friendly interface and robust security measures, the bridge allows users to easily swap tokens across different ecosystems.",
