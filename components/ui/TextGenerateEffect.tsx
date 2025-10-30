@@ -10,10 +10,9 @@ interface TextGenerateEffectProps {
 
 export const TextGenerateEffect = ({ words, className }: TextGenerateEffectProps) => {
   const [scope, animate] = useAnimate();
-  const wordsArray = words.split(" "); // Use 'const' since 'wordsArray' is never reassigned
+  const wordsArray = words.split(" ");
 
   useEffect(() => {
-    console.log(wordsArray);
     animate(
       "span",
       {
@@ -24,7 +23,7 @@ export const TextGenerateEffect = ({ words, className }: TextGenerateEffectProps
         delay: stagger(0.2),
       }
     );
-  }, [animate, wordsArray]); // Add 'animate' and 'wordsArray' to the dependency array
+  }, [animate, wordsArray]);
 
   const renderWords = () => {
     return (
@@ -33,7 +32,7 @@ export const TextGenerateEffect = ({ words, className }: TextGenerateEffectProps
           return (
             <motion.span
               key={word + idx}
-              className={`${idx > 3 ? "text-purple" : "dark:text-white text-black"} opacity-0`}
+              className="text-white opacity-0"
             >
               {word}{" "}
             </motion.span>
@@ -46,7 +45,7 @@ export const TextGenerateEffect = ({ words, className }: TextGenerateEffectProps
   return (
     <div className={cn("font-bold", className)}>
       <div className="my-4">
-        <div className="dark:text-white text-black leading-snug tracking-wide">
+        <div className="text-white leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

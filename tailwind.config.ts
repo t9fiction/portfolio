@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-function-type */
 import type { Config } from "tailwindcss";
 import svgToDataUri from "mini-svg-data-uri";
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
@@ -27,19 +26,18 @@ const config: Config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          100: "#0f172a",
+          200: "rgba(15, 23, 42, 0.8)",
+          300: "rgba(255, 255, 255, 0.1)",
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          100: "#e2e8f0",
+          200: "#cbd5e1",
         },
         blue: {
-          "100": "#E4ECFF",
+          "100": "#dbeafe",
         },
-        purple: "#CBACF9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -154,8 +152,8 @@ const config: Config = {
         },
       },
       animation: {
-        "accordion-down": "accordion-down 0.4s ease-in",
-        "accordion-up": "accordion-up 0.5s ease-out",
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
