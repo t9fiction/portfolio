@@ -72,7 +72,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
               className="flex items-center space-x-1 px-3 py-2 rounded-full"
               whileHover={{
                 scale: 1.1,
-                backgroundColor: "rgba(251, 191, 36, 0.1)",
+                backgroundColor: "rgba(250, 204, 21, 0.1)",
                 color: "#fbbf24",
               }}
               whileTap={{ scale: 0.95 }}

@@ -26,12 +26,12 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <div className="flex items-center gap-2 mb-4">
             <p className="uppercase tracking-wider text-xs text-center text-yellow-400 font-medium">
-              Blockchain Developer | Cloud Engineer | AI Specialist
+              Blockchain Developer | AI Specialist | Cloud Engineer
             </p>
           </div>
 
           <TextGenerateEffect
-            words="Where Blockchain Meets Cloud, Supercharged by AI."
+            words="Merging Blockchain and Cloud. Accelerated by AI Innovation"
             className="text-center text-[32px] md:text-4xl lg:text-5xl text-white"
           />
 
