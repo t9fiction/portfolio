@@ -32,6 +32,8 @@ export default function ProjectDetail() {
           <Image
             src={project.img}
             alt={project.title}
+            width={400}
+            height={64}
             className="w-full h-64 object-cover rounded-lg mb-6"
           />
           

@@ -27,6 +27,8 @@ const Clients = () => {
                 <Image
                   src={testimonial.img}
                   alt={testimonial.name}
+                  width={36}
+                  height={36}
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>

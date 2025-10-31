@@ -57,7 +57,7 @@ const Skills = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 hover:border-yellow-500/30 transition-all duration-300"
+            className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 hover:border-yellow-400 transition-all duration-300"
           >
             <div className={`bg-gradient-to-r ${category.color} bg-clip-text text-transparent mb-6`}>
               <h3 className="text-xl font-bold">{category.title}</h3>
@@ -70,7 +70,7 @@ const Skills = () => {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: (index * 0.1) + (skillIndex * 0.1) }}
-                  className="flex items-start gap-3 p-3 bg-slate-700/30 rounded-lg border border-slate-600/50 hover:border-yellow-500/30 hover:bg-slate-700/50 transition-all duration-200"
+                  className="flex items-start gap-3 p-3 bg-slate-700 rounded-lg border border-slate-400 hover:border-yellow-400 hover:bg-slate-700/50 transition-all duration-200"
                 >
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-slate-200 text-sm leading-relaxed">{skill}</span>

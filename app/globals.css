@@ -28,25 +28,25 @@
 @layer base {
   * {
     @apply border-border !scroll-smooth;
-    color: rgb(248 250 252) !important;
+    color: rgb(248 250 252) ;
   }
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
-    color: rgb(248 250 252) !important;
+    color: rgb(248 250 252) ;
   }
   button {
     @apply active:outline-none;
   }
   h1, h2, h3, h4, h5, h6, p, span, div {
-    color: rgb(248 250 252) !important;
+    color: rgb(248 250 252) ;
   }
 }
 
 @layer utilities {
   .heading {
     @apply font-bold text-3xl md:text-4xl text-center;
-    color: rgb(248 250 252) !important;
+    color: rgb(248 250 252) ;
   }
 }
 
