@@ -3,6 +3,7 @@ import { projects } from "@/data";
 import { Project } from "@/lib/types";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import Image from "next/image";
 
 export default function ProjectDetail() {
   const { id } = useParams();
@@ -28,7 +29,7 @@ export default function ProjectDetail() {
     <div className="min-h-screen bg-slate-900 text-white p-8">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <img
+          <Image
             src={project.img}
             alt={project.title}
             className="w-full h-64 object-cover rounded-lg mb-6"
@@ -68,7 +69,7 @@ export default function ProjectDetail() {
           <div className="flex flex-wrap gap-3">
             {project.iconLists.map((icon, index) => (
               <div key={index} className="flex items-center gap-2 bg-slate-800 px-4 py-2 rounded-lg">
-                <img src={icon} alt="tech" className="w-6 h-6" />
+                <Image src={icon} alt="tech" className="w-6 h-6" />
               </div>
             ))}
           </div>

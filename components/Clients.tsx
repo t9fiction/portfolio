@@ -2,6 +2,7 @@
 
 import React from "react";
 import { testimonials } from "@/data";
+import Image from "next/image";
 
 const Clients = () => {
   return (
@@ -23,18 +24,20 @@ const Clients = () => {
               className="bg-black-100 border border-white/[0.1] rounded-xl p-6 hover:border-purple/50 transition-all duration-300"
             >
               <div className="flex items-center mb-4">
-                <img
+                <Image
                   src={testimonial.img}
                   alt={testimonial.name}
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="text-white font-semibold">{testimonial.name}</h4>
+                  <h4 className="text-white font-semibold">
+                    {testimonial.name}
+                  </h4>
                   <p className="text-white-200 text-sm">{testimonial.title}</p>
                 </div>
               </div>
               <p className="text-white-100 leading-relaxed text-sm">
-                "{testimonial.quote.slice(0, 150)}..."
+                {`"${testimonial.quote.slice(0, 150)}..."`}
               </p>
             </div>
           ))}

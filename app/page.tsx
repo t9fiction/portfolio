@@ -2,9 +2,9 @@
 import { Suspense } from "react";
 import Skills from "@/components/Skills";
 import Clients from "@/components/Clients";
-import Experience from "@/components/Experience";
+// import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
+// import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
