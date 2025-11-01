@@ -19,7 +19,8 @@ const Skills = () => {
       skills: [
         "AI Agents & Automation (OpenAI, n8n, MCP Servers)",
         "Generative AI Applications",
-        "Chatbot Development & AI-Powered dApps"
+        "Chatbot Development & AI-Powered dApps",
+        "LLM CLI Tools (Gemini CLI, Warp AI, Amazon Q CLI)"
       ],
       color: "from-pink-400 to-rose-500"
     },
@@ -29,7 +30,8 @@ const Skills = () => {
         "Cloud Computing (AWS, GCP)",
         "Containerization & Orchestration (Docker, Kubernetes)",
         "CI/CD Pipelines & Infrastructure Automation",
-        "Monitoring & Scaling Cloud-Native Applications"
+        "Virtualization (VMware, VirtualBox, KVM, Proxmox)",
+        "Linux System Administration & Networking"
       ],
       color: "from-blue-400 to-cyan-500"
     },
@@ -38,7 +40,9 @@ const Skills = () => {
       skills: [
         "Full-Stack dApp Development (Next.js, React, TailwindCSS)",
         "API Integration & Backend Systems",
-        "Secure System Design & Optimization"
+        "Secure System Design & Optimization",
+        "Backend Systems (Node.js, Express, FastAPI)",
+        "Version Control & Collaboration (Git, GitHub)"
       ],
       color: "from-green-400 to-emerald-500"
     }
