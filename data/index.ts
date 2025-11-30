@@ -115,7 +115,7 @@ export const projects = [
       "/skills/tailwindcss.svg",
       "/skills/thirdweb.png",
     ],
-    link: "https://nft-marketplace-t9fiction.vercel.app/",
+    link: "https://nft-marketplace-omega-nine.vercel.app/",
     github: "https://github.com/t9fiction/nft-marketplace",
   },
   {
